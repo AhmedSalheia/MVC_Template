@@ -1,0 +1,18 @@
+{
+    "name": "ahmed/qeema",
+    "require": {
+      "ext-openssl": "*",
+      "ext-curl": "*",
+      "ext-json": "*",
+      "ext-pdo": "*",
+      "ext-fileinfo": "*",
+      "firebase/php-jwt": "^5.2",
+      "google/apiclient": "~2.0",
+      "phpmailer/phpmailer": "^6.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "QEEMA\\": "app"
+        }
+    }
+}
