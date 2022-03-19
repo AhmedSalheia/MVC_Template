@@ -3,4 +3,6 @@ error_log
 .idea
 ui
 message.txt
-.gitCommitMessage 
+.gitCommitMessage
+vendor
+.idea
