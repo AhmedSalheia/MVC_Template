@@ -4,10 +4,10 @@ namespace MVC\controllers;
 
 use MVC\lib\traits\Helper;
 
-class IndexController extends AbstractController
+class DefaultController extends AbstractController
 {
     use Helper;
-    public function defaultAction(){
+    public function index(){
 
     }
 }

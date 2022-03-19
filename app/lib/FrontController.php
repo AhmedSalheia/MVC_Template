@@ -11,8 +11,8 @@ class FrontController
     const NOT_FOUND_ACTION = 'notFoundAction';
     const NOT_FOUND_CONTROLLER = 'MVC\controllers\NotFoundController';
 
-    private $_controller = 'index';
-    private $_action = 'default';
+    private $_controller = 'DefaultController';
+    private $_action = 'index';
     public $_params = array();
 
     public static $controller;
@@ -79,8 +79,8 @@ class FrontController
 
     public function dispatch()
     {
-        $controllerClassName = 'MVC\controllers\\'.ucfirst($this->_controller).'Controller';
-        $actionName = $this->_action . 'Action';
+        $controllerClassName = 'MVC\controllers\\'.ucfirst($this->_controller);
+        $actionName = $this->_action;
 
         if (!class_exists($controllerClassName)){
             if (str_word_count($this->_controller,1)[0] !== 'api')
