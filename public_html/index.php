@@ -1,8 +1,8 @@
 <?php
-    namespace QEEMA;
-    use QEEMA\lib\FrontController;
-    use QEEMA\lib\Language;
-    use QEEMA\lib\Template;
+    namespace MVC;
+    use MVC\lib\FrontController;
+    use MVC\lib\Language;
+    use MVC\lib\Template;
 
     session_start();
 
