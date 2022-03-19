@@ -1,8 +1,8 @@
 <?php
 
-namespace QEEMA\controllers;
+namespace MVC\controllers;
 
-use QEEMA\lib\FrontController;
+use MVC\lib\FrontController;
 
 class AbstractController
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace QEEMA\models;
+namespace MVC\models;
 
-use QEEMA\lib\database\DatabaseHandler;
+use MVC\lib\database\DatabaseHandler;
 
 class AbstractModel
 {

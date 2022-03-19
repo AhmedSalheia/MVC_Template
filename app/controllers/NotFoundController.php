@@ -1,6 +1,6 @@
 <?php
 
-namespace QEEMA\controllers;
+namespace MVC\controllers;
 
 class NotFoundController extends AbstractController
 {

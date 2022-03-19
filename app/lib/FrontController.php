@@ -1,15 +1,15 @@
 <?php
 
-namespace QEEMA\lib;
+namespace MVC\lib;
 
-use QEEMA\lib\traits\Helper;
+use MVC\lib\traits\Helper;
 
 class FrontController
 {
     use Helper;
 
     const NOT_FOUND_ACTION = 'notFoundAction';
-    const NOT_FOUND_CONTROLLER = 'QEEMA\controllers\NotFoundController';
+    const NOT_FOUND_CONTROLLER = 'MVC\controllers\NotFoundController';
 
     private $_controller = 'index';
     private $_action = 'default';
@@ -79,7 +79,7 @@ class FrontController
 
     public function dispatch()
     {
-        $controllerClassName = 'QEEMA\controllers\\'.ucfirst($this->_controller).'Controller';
+        $controllerClassName = 'MVC\controllers\\'.ucfirst($this->_controller).'Controller';
         $actionName = $this->_action . 'Action';
 
         if (!class_exists($controllerClassName)){

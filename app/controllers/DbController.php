@@ -1,27 +1,27 @@
 <?php
 
-namespace QEEMA\controllers;
+namespace MVC\controllers;
 
-use QEEMA\models\Articles;
-use QEEMA\models\Category;
-use QEEMA\models\Clients;
-use QEEMA\models\ComingWorkout;
-use QEEMA\models\Contact;
-use QEEMA\models\CourseRates;
-use QEEMA\models\Courses;
-use QEEMA\models\Dialect;
-use QEEMA\models\Languages;
-use QEEMA\models\Messages;
-use QEEMA\models\Portfolio;
-use QEEMA\models\Service;
-use QEEMA\models\SocialLinks;
-use QEEMA\models\TermsOfUse;
-use QEEMA\models\Users;
-use QEEMA\models\VoiceBooks;
-use QEEMA\models\VoiceRates;
-use QEEMA\models\Voices;
-use QEEMA\models\WorkoutBooks;
-use QEEMA\models\Workouts;
+use MVC\models\Articles;
+use MVC\models\Category;
+use MVC\models\Clients;
+use MVC\models\ComingWorkout;
+use MVC\models\Contact;
+use MVC\models\CourseRates;
+use MVC\models\Courses;
+use MVC\models\Dialect;
+use MVC\models\Languages;
+use MVC\models\Messages;
+use MVC\models\Portfolio;
+use MVC\models\Service;
+use MVC\models\SocialLinks;
+use MVC\models\TermsOfUse;
+use MVC\models\Users;
+use MVC\models\VoiceBooks;
+use MVC\models\VoiceRates;
+use MVC\models\Voices;
+use MVC\models\WorkoutBooks;
+use MVC\models\Workouts;
 
 class DbController extends AbstractController
 {

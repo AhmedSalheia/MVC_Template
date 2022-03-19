@@ -1,7 +1,7 @@
 <?php
 
 
-namespace QEEMA\lib\traits;
+namespace MVC\lib\traits;
 
 
 use PHPMailer\PHPMailer\PHPMailer;

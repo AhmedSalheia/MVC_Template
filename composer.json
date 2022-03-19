@@ -1,5 +1,5 @@
 {
-    "name": "ahmed/qeema",
+    "name": "ahmed/mvc",
     "require": {
       "ext-openssl": "*",
       "ext-curl": "*",
@@ -12,7 +12,7 @@
     },
     "autoload": {
         "psr-4": {
-            "QEEMA\\": "app"
+            "MVC\\": "app"
         }
     }
 }

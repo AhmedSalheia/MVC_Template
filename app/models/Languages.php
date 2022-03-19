@@ -1,7 +1,7 @@
 <?php
 
 
-namespace QEEMA\models;
+namespace MVC\models;
 
 class Languages extends AbstractModel
 {

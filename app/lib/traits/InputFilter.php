@@ -1,5 +1,5 @@
 <?php
-namespace QEEMA\lib\traits;
+namespace MVC\lib\traits;
 
 
 trait InputFilter

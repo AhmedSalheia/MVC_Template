@@ -1,6 +1,6 @@
 <?php
 
-namespace QEEMA\lib;
+namespace MVC\lib;
 
 
 class Language

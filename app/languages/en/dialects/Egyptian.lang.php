@@ -1,3 +1,0 @@
-<?php
-
-$_['egyptian'] = 'Egyptian';

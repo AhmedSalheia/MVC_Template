@@ -1,6 +1,6 @@
 <?php
 
-namespace QEEMA\lib\database;
+namespace MVC\lib\database;
 
 class MySQLiDatabaseHandler extends DatabaseHandler
 {

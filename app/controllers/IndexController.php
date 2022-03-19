@@ -1,8 +1,8 @@
 <?php
 
-namespace QEEMA\controllers;
+namespace MVC\controllers;
 
-use QEEMA\lib\traits\Helper;
+use MVC\lib\traits\Helper;
 
 class IndexController extends AbstractController
 {
